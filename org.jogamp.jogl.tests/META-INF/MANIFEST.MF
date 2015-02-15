@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JOGL Tests
+Bundle-SymbolicName: org.jogamp.jogl.tests;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.jogamp.jogl.tests.Activator
+Bundle-Vendor: jogamp.org
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.jogamp.jogl;bundle-version="2.3.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            name="JOGL"
+            id="org.jogamp.jogl.views">
+      </category>
+      <view
+            name="JOGL View"
+            icon="icons/sample.gif"
+            category="org.jogamp.jogl.views"
+            class="org.jogamp.jogl.tests.views.JOGLView"
+            id="org.jogamp.jogl.tests.views.JOGLView">
+      </view>
+   </extension>
+
+</plugin>
