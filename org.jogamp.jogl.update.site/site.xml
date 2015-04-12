@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<site>
-   <feature url="features/org.jogamp.jogl.feature_1.0.0.201504111004.jar" id="org.jogamp.jogl.feature" version="1.0.0.201504111004" os="linux,macosx,win32" ws="cocoa,win32" arch="x86,x86_64">
-      <category name="java_opengl"/>
-   </feature>
-   <category-def name="java_opengl" label="Java OpenGL"/>
-</site>
