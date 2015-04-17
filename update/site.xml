@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.jogamp.jogl.feature_2.3.0.201504170103.jar" id="org.jogamp.jogl.feature" version="2.3.0.201504170103" os="win32" arch="x86"/>
+   <feature url="features/org.jogamp.jogl.feature_2.3.0.201504172332.jar" id="org.jogamp.jogl.feature" version="2.3.0.201504172332" os="win32" arch="x86"/>
 </site>
