@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.jogamp.jogl.feature_2.3.0.201504180619.jar" id="org.jogamp.jogl.feature" version="2.3.0.201504180619" os="win32" arch="x86"/>
+   <feature url="features/org.jogamp.jogl.feature_2.3.0.201504180728.jar" id="org.jogamp.jogl.feature" version="2.3.0.201504180728" os="macosx,win32"/>
+   <feature url="features/org.jogamp.jogl.tests.feature_2.3.0.201504180728.jar" id="org.jogamp.jogl.tests.feature" version="2.3.0.201504180728"/>
 </site>
