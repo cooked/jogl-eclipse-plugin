@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="feature_export" name="build">
+	<target name="feature_export">
+		<pde.exportFeatures destination="/Users/stefanocottafavi/git/jogl-eclipse-plugin/org.jogamp.jogl.feature" exportSource="false" exportType="directory" features="org.jogamp.jogl.feature" useJARFormat="true"/>
+	</target>
+</project>
