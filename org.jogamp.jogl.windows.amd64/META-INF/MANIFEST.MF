@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: JOGL Windows x64
 Bundle-SymbolicName: org.jogamp.jogl.windows.amd64
-Bundle-Version: 2.3.0.qualifier
+Bundle-Version: 2.4.0.qualifier
 Bundle-Vendor: jogamp.org
 Fragment-Host: org.jogamp.jogl;bundle-version="2.3.0"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7

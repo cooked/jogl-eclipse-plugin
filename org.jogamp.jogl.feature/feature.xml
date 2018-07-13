@@ -2,9 +2,9 @@
 <feature
       id="org.jogamp.jogl.feature"
       label="Java OpenGL"
-      version="2.3.0.qualifier"
+      version="2.4.0.qualifier"
       provider-name="jogamp.org"
-      os="macosx,win32">
+      os="linux,macosx,win32">
 
    <description url="http://www.example.com/description">
       [Enter Feature Description here.]
@@ -27,7 +27,7 @@
          id="org.jogamp.jogl"
          download-size="0"
          install-size="0"
-         version="2.3.0.qualifier"
+         version="0.0.0"
          unpack="false"/>
 
    <plugin
@@ -37,7 +37,7 @@
          arch="x86"
          download-size="0"
          install-size="0"
-         version="2.3.0.qualifier"
+         version="0.0.0"
          fragment="true"
          unpack="false"/>
 
@@ -48,7 +48,7 @@
          arch="x86_64"
          download-size="0"
          install-size="0"
-         version="2.3.0.qualifier"
+         version="0.0.0"
          fragment="true"
          unpack="false"/>
 
@@ -59,7 +59,7 @@
          arch="x86_64"
          download-size="0"
          install-size="0"
-         version="2.3.0.qualifier"
+         version="0.0.0"
          fragment="true"
          unpack="false"/>
 
@@ -70,7 +70,7 @@
          arch="x86_64"
          download-size="0"
          install-size="0"
-         version="2.3.0.qualifier"
+         version="0.0.0"
          fragment="true"
          unpack="false"/>
 
@@ -81,7 +81,7 @@
          arch="x86"
          download-size="0"
          install-size="0"
-         version="2.3.0.qualifier"
+         version="0.0.0"
          fragment="true"
          unpack="false"/>
 

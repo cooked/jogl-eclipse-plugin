@@ -1,32 +1,38 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <units size='1'>
-  <unit id='org.jogamp.jogl.tests' version='2.3.0.201504191431'>
-    <update id='org.jogamp.jogl.tests' range='[0.0.0,2.3.0.201504191431)' severity='0'/>
+  <unit id='org.jogamp.jogl.tests' version='2.4.0.201807131829' generation='2'>
+    <update id='org.jogamp.jogl.tests' range='[0.0.0,2.4.0.201807131829)' severity='0'/>
     <properties size='5'>
       <property name='org.eclipse.equinox.p2.name' value='JOGL Tests'/>
       <property name='org.eclipse.equinox.p2.provider' value='jogamp.org'/>
       <property name='maven-groupId' value='org.jogamp'/>
       <property name='maven-artifactId' value='org.jogamp.jogl.tests'/>
-      <property name='maven-version' value='2.3.0-SNAPSHOT'/>
+      <property name='maven-version' value='2.4.0-SNAPSHOT'/>
     </properties>
-    <provides size='3'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='org.jogamp.jogl.tests' version='2.3.0.201504191431'/>
-      <provided namespace='osgi.bundle' name='org.jogamp.jogl.tests' version='2.3.0.201504191431'/>
+    <provides size='4'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.jogamp.jogl.tests' version='2.4.0.201807131829'/>
+      <provided namespace='osgi.bundle' name='org.jogamp.jogl.tests' version='2.4.0.201807131829'/>
+      <provided namespace='osgi.identity' name='org.jogamp.jogl.tests' version='2.4.0.201807131829'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
       <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
     </provides>
-    <requires size='3'>
+    <requires size='4'>
       <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
       <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
       <required namespace='osgi.bundle' name='org.jogamp.jogl' range='2.3.0'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.7))'/>
     </requires>
     <artifacts size='1'>
-      <artifact classifier='osgi.bundle' id='org.jogamp.jogl.tests' version='2.3.0.201504191431'/>
+      <artifact classifier='osgi.bundle' id='org.jogamp.jogl.tests' version='2.4.0.201807131829'/>
     </artifacts>
     <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
     <touchpointData size='1'>
       <instructions size='1'>
         <instruction key='manifest'>
-          Bundle-SymbolicName: org.jogamp.jogl.tests;singleton:=true&#xA;Bundle-Version: 2.3.0.201504191431&#xA;
+          Bundle-SymbolicName: org.jogamp.jogl.tests;singleton:=true&#xA;Bundle-Version: 2.4.0.201807131829&#xA;
         </instruction>
       </instructions>
     </touchpointData>

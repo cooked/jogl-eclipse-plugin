@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-SymbolicName: org.jogamp.jogl.linux.i586
 Bundle-Name: JOGL Linux i586
-Bundle-Version: 2.3.0.201504191431
+Bundle-Version: 2.4.0.201807131829
 Bundle-ManifestVersion: 2
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Eclipse-PlatformFilter: (& (osgi.os=linux) (osgi.arch=x86))

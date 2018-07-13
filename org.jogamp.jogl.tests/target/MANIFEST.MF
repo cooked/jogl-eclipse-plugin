@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-SymbolicName: org.jogamp.jogl.tests;singleton:=true
 Bundle-Name: JOGL Tests
-Bundle-Version: 2.3.0.201504191431
+Bundle-Version: 2.4.0.201807131829
 Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.jogamp.jog
  l;bundle-version="2.3.0"
 Bundle-ManifestVersion: 2

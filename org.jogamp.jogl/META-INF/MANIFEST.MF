@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: JOGL
 Bundle-SymbolicName: org.jogamp.jogl
-Bundle-Version: 2.3.0.qualifier
+Bundle-Version: 2.4.0.qualifier
 Bundle-ClassPath: jogl-all.jar,
  gluegen-rt.jar
 Bundle-Vendor: jogamp.org
