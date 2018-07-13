@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <units size='2'>
-  <unit id='org.jogamp.jogl.tests.feature.feature.group' version='2.3.0.201504191431' singleton='false'>
-    <update id='org.jogamp.jogl.tests.feature.feature.group' range='[0.0.0,2.3.0.201504191431)' severity='0'/>
+  <unit id='org.jogamp.jogl.tests.feature.feature.group' version='2.4.0.201807131829' singleton='false'>
+    <update id='org.jogamp.jogl.tests.feature.feature.group' range='[0.0.0,2.4.0.201807131829)' severity='0'/>
     <properties size='8'>
       <property name='org.eclipse.equinox.p2.name' value='Java OpenGL Eclipse Plugin Tests'/>
       <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
@@ -10,14 +10,14 @@
       <property name='org.eclipse.equinox.p2.type.group' value='true'/>
       <property name='maven-groupId' value='org.jogamp'/>
       <property name='maven-artifactId' value='org.jogamp.jogl.tests.feature'/>
-      <property name='maven-version' value='2.3.0-SNAPSHOT'/>
+      <property name='maven-version' value='2.4.0-SNAPSHOT'/>
     </properties>
     <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='org.jogamp.jogl.tests.feature.feature.group' version='2.3.0.201504191431'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.jogamp.jogl.tests.feature.feature.group' version='2.4.0.201807131829'/>
     </provides>
     <requires size='2'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='org.jogamp.jogl.tests' range='[2.3.0.201504191431,2.3.0.201504191431]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='org.jogamp.jogl.tests.feature.feature.jar' range='[2.3.0.201504191431,2.3.0.201504191431]'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jogamp.jogl.tests' range='[2.4.0.201807131829,2.4.0.201807131829]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jogamp.jogl.tests.feature.feature.jar' range='[2.4.0.201807131829,2.4.0.201807131829]'>
         <filter>
           (org.eclipse.update.install.features=true)
         </filter>
@@ -33,7 +33,7 @@
       [Enter Copyright Description here.]
     </copyright>
   </unit>
-  <unit id='org.jogamp.jogl.tests.feature.feature.jar' version='2.3.0.201504191431'>
+  <unit id='org.jogamp.jogl.tests.feature.feature.jar' version='2.4.0.201807131829'>
     <properties size='7'>
       <property name='org.eclipse.equinox.p2.name' value='Java OpenGL Eclipse Plugin Tests'/>
       <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
@@ -41,18 +41,18 @@
       <property name='org.eclipse.equinox.p2.provider' value='jogamp.org'/>
       <property name='maven-groupId' value='org.jogamp'/>
       <property name='maven-artifactId' value='org.jogamp.jogl.tests.feature'/>
-      <property name='maven-version' value='2.3.0-SNAPSHOT'/>
+      <property name='maven-version' value='2.4.0-SNAPSHOT'/>
     </properties>
     <provides size='3'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='org.jogamp.jogl.tests.feature.feature.jar' version='2.3.0.201504191431'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.jogamp.jogl.tests.feature.feature.jar' version='2.4.0.201807131829'/>
       <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
-      <provided namespace='org.eclipse.update.feature' name='org.jogamp.jogl.tests.feature' version='2.3.0.201504191431'/>
+      <provided namespace='org.eclipse.update.feature' name='org.jogamp.jogl.tests.feature' version='2.4.0.201807131829'/>
     </provides>
     <filter>
       (org.eclipse.update.install.features=true)
     </filter>
     <artifacts size='1'>
-      <artifact classifier='org.eclipse.update.feature' id='org.jogamp.jogl.tests.feature' version='2.3.0.201504191431'/>
+      <artifact classifier='org.eclipse.update.feature' id='org.jogamp.jogl.tests.feature' version='2.4.0.201807131829'/>
     </artifacts>
     <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
     <touchpointData size='1'>

@@ -2,7 +2,7 @@
 <feature
       id="org.jogamp.jogl.tests.feature"
       label="Java OpenGL Eclipse Plugin Tests"
-      version="2.3.0.201504191431"
+      version="2.4.0.201807131829"
       provider-name="jogamp.org">
 
    <description url="http://www.example.com/description">
@@ -20,8 +20,8 @@
    <plugin
          id="org.jogamp.jogl.tests"
          download-size="9"
-         install-size="13"
-         version="2.3.0.201504191431"
+         install-size="14"
+         version="2.4.0.201807131829"
          unpack="false"/>
 
 </feature>
