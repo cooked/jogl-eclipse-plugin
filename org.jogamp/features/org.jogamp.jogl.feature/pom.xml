@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <artifactId>org.jogamp.jogl.feature</artifactId>
-  <packaging>eclipse-feature</packaging>
+  <packaging>pom</packaging>
   <parent>
   	<groupId>org.jogamp</groupId>
   	<artifactId>org.jogamp.root</artifactId>
@@ -46,4 +46,12 @@
   		<type>eclipse-plugin</type>
   	</dependency>
   </dependencies>
+  <modules>
+  	<module>../org.jogamp.jogl</module>
+  	<module>../org.jogamp.jogl.linux.amd64</module>
+  	<module>../org.jogamp.jogl.linux.i586</module>
+  	<module>../org.jogamp.jogl.macosx</module>
+  	<module>../org.jogamp.jogl.windows.amd64</module>
+  	<module>../org.jogamp.jogl.windows.i586</module>
+  </modules>
 </project>

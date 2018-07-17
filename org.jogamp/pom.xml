@@ -69,15 +69,15 @@
 		</plugins>
 	</build>
 	<modules>
-		<module>../org.jogamp.jogl</module>
-		<module>../org.jogamp.jogl.windows.i586</module>
-		<module>../org.jogamp.jogl.windows.amd64</module>
-		<module>../org.jogamp.jogl.linux.i586</module>
-		<module>../org.jogamp.jogl.linux.amd64</module>
-		<module>../org.jogamp.jogl.macosx</module>
-		<module>../org.jogamp.jogl.feature</module>
-		<module>../org.jogamp.jogl.tests</module>
-		<module>../org.jogamp.jogl.tests.feature</module>
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		<module>../../jogl-eclipse-plugin-update_site</module>
 	</modules>
